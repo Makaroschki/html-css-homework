@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+    background-color: rgb(2, 3, 3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main .container {
+    font-size: 0;
+}
+
+.button {
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    border: 0;
+}
+
+.button.yellow-button {
+    width: 224px;
+    height: 60px;
+}
+
+.button:hover {
+    box-shadow: 0 10px 15px rgb(255, 175, 24, 0.5);;
+    cursor: pointer;
+}
+
+.about-items {
+    padding: 48px 0;
+    font-size: 0;
+}
+
+
+.about-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 87px;
+    background-color: rgb(255, 255, 255);
+    width: 282px;
+    height: 357px;
+}
+
+.about-item:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+
+.about-item-image-special {
+    padding: 5px 41px 30px 41px;
+}
+
+.about-item-image {
+    padding: 10px 41px 30px 41px;
+}
+
+.sushi-roll-name {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    max-height: 18px;
+}
+
+.about-item-text {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    padding: 15px 20px;
+    height: 50px;
+}
+
+.main-actions {
+    text-align: center;
+}
+
+.button.yellow-button-1 {
+    padding: 15px 80px;
+}
